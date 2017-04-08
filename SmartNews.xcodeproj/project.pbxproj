@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		463E8DD91E995B51006B0516 /* News3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463E8DD81E995B51006B0516 /* News3ViewController.swift */; };
+		463E8DE11E99736F006B0516 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 463E8DE01E99736F006B0516 /* icon.png */; };
 		46DCA46D1E915172009AE445 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DCA46C1E915172009AE445 /* AppDelegate.swift */; };
 		46DCA46F1E915172009AE445 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DCA46E1E915172009AE445 /* ViewController.swift */; };
 		46DCA4721E915172009AE445 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46DCA4701E915172009AE445 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* Begin PBXFileReference section */
 		24D76B7C0A9F8B5DA8ED1439 /* Pods_SmartNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		463E8DD81E995B51006B0516 /* News3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = News3ViewController.swift; sourceTree = "<group>"; };
+		463E8DE01E99736F006B0516 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../../../Desktop/icon.png; sourceTree = "<group>"; };
 		46DCA4691E915172009AE445 /* SmartNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46DCA46C1E915172009AE445 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46DCA46E1E915172009AE445 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 		46DCA46B1E915172009AE445 /* SmartNews */ = {
 			isa = PBXGroup;
 			children = (
+				463E8DE01E99736F006B0516 /* icon.png */,
 				46DCA47E1E9151D0009AE445 /* 1.jpg */,
 				46DCA47F1E9151D0009AE445 /* 2.jpg */,
 				46DCA4801E9151D0009AE445 /* 3.jpg */,
@@ -199,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				463E8DE11E99736F006B0516 /* icon.png in Resources */,
 				46DCA4771E915172009AE445 /* LaunchScreen.storyboard in Resources */,
 				46DCA48D1E9151D0009AE445 /* 5.jpg in Resources */,
 				46DCA4921E9151D0009AE445 /* go.png in Resources */,
@@ -400,7 +404,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7576659C3EA1AC14FCC66363 /* Pods-SmartNews.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-3";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = D6CT6V48Z4;
 				INFOPLIST_FILE = SmartNews/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -415,7 +420,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6ED57550A9A396529C137783 /* Pods-SmartNews.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-3";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = D6CT6V48Z4;
 				INFOPLIST_FILE = SmartNews/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;

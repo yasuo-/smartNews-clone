@@ -84,7 +84,8 @@ class News5ViewController: UIViewController, UITableViewDelegate, UITableViewDat
         // height => 自分のviewの全体の高さ - 54.0(tabの高さ分)
         tableView.frame = CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: self.view.frame.size.height - 54.0)
         // 背景をクリアにすると画像が透けて見える (デフォルトは白)
-        tableView.backgroundColor = UIColor.clear
+        // tableView.backgroundColor = UIColor.clear
+        tableView.backgroundColor = UIColor.white
         // tableViewとrefreshViewが合体する
         tableView.addSubview(refreshControl)
         // 自分の画面をつける refreshControlが付いている
@@ -253,13 +254,14 @@ class News5ViewController: UIViewController, UITableViewDelegate, UITableViewDat
         
         cell.backgroundColor = UIColor.clear
         cell.textLabel?.text = (totalBox[indexPath.row] as AnyObject).value(forKey: "title") as? String
-        cell.textLabel?.font = UIFont.boldSystemFont(ofSize: 15.0)
-        cell.textLabel?.textColor = UIColor.white
-        
+        cell.textLabel?.font = UIFont.boldSystemFont(ofSize: 18.0)
+        //cell.textLabel?.textColor = UIColor.white
+        cell.textLabel?.textColor = UIColor.darkText
         
         cell.detailTextLabel?.text = (totalBox[indexPath.row] as AnyObject).value(forKey: "link") as? String
-        cell.detailTextLabel?.font = UIFont.boldSystemFont(ofSize: 9.0)
-        cell.detailTextLabel?.textColor = UIColor.white
+        cell.detailTextLabel?.font = UIFont.boldSystemFont(ofSize: 12.0)
+        //cell.detailTextLabel?.textColor = UIColor.white
+        cell.detailTextLabel?.textColor = UIColor.darkGray
         
         
         // image add
