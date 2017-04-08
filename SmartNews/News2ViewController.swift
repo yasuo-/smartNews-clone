@@ -2,7 +2,7 @@
 //  News2ViewController.swift
 //  SmartNews
 //
-//  CNN RSSのXMLデータをTableControllerに加えていく
+//  CNN(all) RSSのXMLデータをTableControllerに加えていく
 //  Created by 栗原靖 on 2017/04/03.
 //  Copyright © 2017年 Yasuo Kurihara. All rights reserved.
 //
