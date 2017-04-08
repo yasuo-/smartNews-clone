@@ -62,7 +62,7 @@ class News3ViewController: UIViewController, UITableViewDelegate, UITableViewDat
         let imageView = UIImageView()
         // 画面いっぱい広げる
         imageView.frame = self.view.bounds
-        imageView.image = UIImage(named: "2.jpg")
+        imageView.image = UIImage(named: "3.jpg")
         // 画面に貼り付ける
         self.view.addSubview(imageView)
         
