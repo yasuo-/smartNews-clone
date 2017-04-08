@@ -273,8 +273,8 @@ class News2ViewController: UIViewController, UITableViewDelegate, UITableViewDat
         
         // WebViewを表示する
         let linkURL = (totalBox[indexPath.row] as AnyObject).value(forKey: "link") as? String
-        let urlStr = linkURL?.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
-        let url: URL = URL(string: urlStr!)!
+      //  let urlStr = linkURL?.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
+        let url: URL = URL(string: linkURL!)!
         let urlRequest = NSURLRequest(url: url)
         
         webView.loadRequest(urlRequest as URLRequest)

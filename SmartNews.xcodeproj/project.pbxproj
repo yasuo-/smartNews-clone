@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		463E8DD91E995B51006B0516 /* News3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463E8DD81E995B51006B0516 /* News3ViewController.swift */; };
 		46DCA46D1E915172009AE445 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DCA46C1E915172009AE445 /* AppDelegate.swift */; };
 		46DCA46F1E915172009AE445 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DCA46E1E915172009AE445 /* ViewController.swift */; };
 		46DCA4721E915172009AE445 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46DCA4701E915172009AE445 /* Main.storyboard */; };
@@ -32,6 +33,7 @@
 
 /* Begin PBXFileReference section */
 		24D76B7C0A9F8B5DA8ED1439 /* Pods_SmartNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		463E8DD81E995B51006B0516 /* News3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = News3ViewController.swift; sourceTree = "<group>"; };
 		46DCA4691E915172009AE445 /* SmartNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46DCA46C1E915172009AE445 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46DCA46E1E915172009AE445 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				46DCA46E1E915172009AE445 /* ViewController.swift */,
 				46DCA4941E915261009AE445 /* News1ViewController.swift */,
 				46DCA4961E91527F009AE445 /* News2ViewController.swift */,
+				463E8DD81E995B51006B0516 /* News3ViewController.swift */,
 				46DCA49A1E915298009AE445 /* News4ViewController.swift */,
 				46DCA49C1E9152A2009AE445 /* News5ViewController.swift */,
 				46DCA4701E915172009AE445 /* Main.storyboard */,
@@ -270,6 +273,7 @@
 				46DCA49D1E9152A2009AE445 /* News5ViewController.swift in Sources */,
 				46DCA4911E9151D0009AE445 /* DotsLoader.swift in Sources */,
 				46DCA46F1E915172009AE445 /* ViewController.swift in Sources */,
+				463E8DD91E995B51006B0516 /* News3ViewController.swift in Sources */,
 				46DCA49B1E915298009AE445 /* News4ViewController.swift in Sources */,
 				46DCA46D1E915172009AE445 /* AppDelegate.swift in Sources */,
 				46DCA4971E91527F009AE445 /* News2ViewController.swift in Sources */,

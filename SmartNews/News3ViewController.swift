@@ -2,7 +2,7 @@
 //  News3ViewController.swift
 //  SmartNews
 //
-//  Created by 栗原靖 on 2017/04/03.
+//  Created by 栗原靖 on 2017/04/09.
 //  Copyright © 2017年 Yasuo Kurihara. All rights reserved.
 //
 
