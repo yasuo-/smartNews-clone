@@ -248,8 +248,10 @@ class News2ViewController: UIViewController, UITableViewDelegate, UITableViewDat
         
         let cell = UITableViewCell(style: .subtitle, reuseIdentifier: "Cell")
         
-        cell.backgroundColor = UIColor.clear
+        // ハイライトなくす
+        cell.selectionStyle = .none
         
+        cell.backgroundColor = UIColor.clear
         cell.textLabel?.text = (totalBox[indexPath.row] as AnyObject).value(forKey: "title") as? String
         cell.textLabel?.font = UIFont.boldSystemFont(ofSize: 15.0)
         cell.textLabel?.textColor = UIColor.white
@@ -264,7 +266,7 @@ class News2ViewController: UIViewController, UITableViewDelegate, UITableViewDat
         let urlStr = urlArray[indexPath.row].addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!
         let url: URL = URL(string: urlStr)!
         
-        cell.imageView?.sd_setImage(with: url, placeholderImage: UIImage(named:  "PlaceholderImage.png"))
+        cell.imageView?.sd_setImage(with: url, placeholderImage: UIImage(named:  "placeholderImage.png"))
         
         return cell
     }

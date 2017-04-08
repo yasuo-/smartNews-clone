@@ -244,8 +244,10 @@ class News1ViewController: UIViewController, UITableViewDelegate, UITableViewDat
         
         let cell = UITableViewCell(style: .subtitle, reuseIdentifier: "Cell")
         
+        // ハイライトなくす
+        cell.selectionStyle = .none
+        
         cell.backgroundColor = UIColor.clear
-
         cell.textLabel?.text = (totalBox[indexPath.row] as AnyObject).value(forKey: "title") as? String
         cell.textLabel?.font = UIFont.boldSystemFont(ofSize: 15.0)
         cell.textLabel?.textColor = UIColor.white
