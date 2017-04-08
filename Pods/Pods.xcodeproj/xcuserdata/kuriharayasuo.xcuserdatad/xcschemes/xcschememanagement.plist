@@ -14,15 +14,25 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>WBSegmentControl.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>5E8A8684347BBDBE92B9A82B65D0BC06</key>
+		<key>2AD557CF697A876614EC82B64D010995</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BD039C448EE3105C7D9DE98DF954BCA5</key>
+		<key>5F1500259369F0643CE080EEC4D88164</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A307E2ADAB294F4D2F13C4AAEABEF589</key>
 		<dict>
 			<key>primary</key>
 			<true/>
